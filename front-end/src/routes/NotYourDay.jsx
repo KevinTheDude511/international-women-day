@@ -2,7 +2,10 @@ import React from 'react'
 
 function NotYourDay() {
     return (
-        <div>M là con trai mà?</div>
+        <div>
+            <img src="/khuong.svg" alt=""/>
+            <img src="/nhien.svg" alt=""/>
+        </div>
     )
 }
 
