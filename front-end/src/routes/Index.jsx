@@ -18,7 +18,7 @@ function Index() {
             if (username === '') {
                 throw new Error('Name cannot be empty')
             }
-            const url = 'http://localhost:5000/api/v1'
+            const url = import.meta.env.VITE_REACT_APP_BACKEND_BASE_URL
             const req = {
                 username: username
             }

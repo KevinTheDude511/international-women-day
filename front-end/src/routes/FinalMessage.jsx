@@ -20,7 +20,7 @@ function FinalMessage() {
     return (
         <div>
             <p>This is the final message</p>
-            {/* Send this back lost data */}
+            {/* Send this back lost data?? */}
             {/* <button onClick={onClickHandler}>Back</button> */}
             <button onClick={onClickNext}>A note for you</button>
             <button onClick={onClickMain}>Back to main</button>
