@@ -6,7 +6,7 @@ require('dotenv').config()
 
 const message = require('./routes/message')
 
-const port = 5000
+const port = process.env.PORT || 5000
 
 // Middleware
 app.use(express.json())
