@@ -8,10 +8,15 @@ function ThankYou() {
         navigate('/')
     }
 
+    const onClickSpecialNote = () => {
+        navigate('/specialnote')
+    }
+
     return (
         <div className='bg-cover min-h-screen bg-fixed' style={{backgroundImage: 'url("page-bg-1.png")'}}>
             <div className='flex justify-center pt-10 h-[450px] mb-5'>
                 <div className='w-[80%] border-4 border-primary rounded-[50px] bg-third pt-10 pl-20 pr-20 font-merriweather text-[70px] text-primary font-bold'>
+                    <p>Thank you :3</p>
                     <p>Design: Lê Thảo Nhiên</p>
                     <p>Code: Đỗ Duy Khương</p>
                 </div>
@@ -28,6 +33,11 @@ function ThankYou() {
                 <div className='w-[20%]'>
                     <button onClick={onClickHome} className='w-full border-2 border-primary rounded-[50px] bg-secondary p-5 hover:bg-buttonHover'>
                         <p className='text-primary text-[30px] text-center font-semibold'>quay lại trang chủ</p>
+                    </button>
+                </div>
+                <div className='w-[20%]'>
+                    <button onClick={onClickSpecialNote} className='w-full border-2 border-primary rounded-[50px] bg-secondary p-5 hover:bg-buttonHover'>
+                        <p className='text-primary text-[30px] text-center font-semibold'>the story behind</p>
                     </button>
                 </div>
                 <div className='w-[25%]'>

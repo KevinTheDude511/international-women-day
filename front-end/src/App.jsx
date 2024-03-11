@@ -6,6 +6,7 @@ import FinalMessage from './routes/FinalMessage'
 import ThankYou from './routes/ThankYou'
 import NotYourDay from './routes/NotYourDay'
 import Error from './routes/Error'
+import SpecialNote from './routes/SpecialNote'
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/notfound' element={<NotFound></NotFound>}></Route>
                 <Route path='/finalmsg' element={<FinalMessage></FinalMessage>}></Route>
                 <Route path='/thankyou' element={<ThankYou></ThankYou>}></Route>
+                <Route path='/specialnote' element={<SpecialNote></SpecialNote>}></Route>
                 <Route path='*' element={<Error></Error>}></Route>
             </Routes>
         </>
