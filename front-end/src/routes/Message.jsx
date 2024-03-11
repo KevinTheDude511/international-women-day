@@ -32,6 +32,7 @@ function Message() {
 
     return (
         <div>
+
             <h1>This is message</h1>
             <p>Chào bạn {capitalizedAfterWS(data.username)}</p>
             <p>{currentState <= 1 ? data.msg1 : data.msg2}</p>

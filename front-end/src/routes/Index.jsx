@@ -60,12 +60,40 @@ function Index() {
     }, [userdata])
 
     return (
-        <div>
-            <h1>This is main page</h1>
+        <div className='bg-cover min-h-screen flex' style={{backgroundImage: 'url("page-bg-1.png")'}}>
+            <div className='w-[45%] mt-10'>
+                <img src="/khuong.svg" alt="" className=''/>
+            </div>
+            <div className='w-[55%] inline'>
+                <div className='w-[95%] mb-20'>
+                    <p className='text-right text-[100px] font-montserrat font-extrabold text-primary'>International <br /> Women's Day</p>
+                </div>
+                <div className='w-[90%] mb-32'>
+                    <div className='border-t-4 border-l-4 border-r-4 border-black text-center p-5'>
+                        <p className='text-[25px] font-merriweather'>NHẬP VÀO HỌ TÊN CỦA BẠN ĐỂ NHẬN BẤT NGỜ NHA</p>
+                    </div>
+                    <div>
+                        <form onSubmit={submitHandler}>
+                            <div className='border-4 border-black mb-10'>
+                                    <input type="text" value={username} onChange={onChangeUsername} placeholder='Ở đây nè...' className='w-[100%] p-7 focus:outline-none text-[40px] font-merriweather' />
+                            </div>
+                            <div className='flex justify-end'>
+                                <button type='submit' className='border-4 border-black rounded-3xl p-5 bg-secondary'>
+                                    <p className='text-[40px] font-montserrat font-extrabold text-primary'>START NOW!</p>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div className='w-[95%]'>
+                    <p className='text-right text-secondary text-[35px] font-semibold font-kanit'>From Khương & Nhin with lòvé</p>
+                </div>
+            </div>
+            {/* <h1 className='text-red-500'>This is main page</h1>
             <form onSubmit={submitHandler}>
                 <input type="text" value={username} onChange={onChangeUsername} placeholder='Name here' className='border p-5 m-5' />
                 <button type='submit'>Submit</button>
-            </form>
+            </form> */}
         </div>
     )
 }
