@@ -70,7 +70,7 @@ function Index() {
                 </div>
                 <div className='w-[90%] mb-32'>
                     <div className='border-t-4 border-l-4 border-r-4 border-black text-center p-5'>
-                        <p className='text-[25px] font-merriweather'>NHẬP VÀO HỌ TÊN CỦA BẠN ĐỂ NHẬN BẤT NGỜ NHA</p>
+                        <p className='text-[25px] font-merriweather'>NHẬP VÀO HỌ TÊN CỦA BẠN <b>(CÓ DẤU)</b> ĐỂ NHẬN BẤT NGỜ NHA</p>
                     </div>
                     <div>
                         <form onSubmit={submitHandler}>
@@ -78,7 +78,7 @@ function Index() {
                                     <input type="text" value={username} onChange={onChangeUsername} placeholder='Ở đây nè...' className='w-[100%] p-7 focus:outline-none text-[40px] font-merriweather' />
                             </div>
                             <div className='flex justify-end'>
-                                <button type='submit' className='border-4 border-black rounded-3xl p-5 bg-secondary'>
+                                <button type='submit' className='border-4 border-black rounded-[50px] p-5 bg-secondary hover:bg-buttonHover'>
                                     <p className='text-[40px] font-montserrat font-extrabold text-primary'>START NOW!</p>
                                 </button>
                             </div>

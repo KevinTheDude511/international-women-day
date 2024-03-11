@@ -9,6 +9,8 @@ export default {
             colors: {
                 primary: '#163723',
                 secondary: '#efe8db',
+                third: '#a3c4f3',
+                buttonHover: '#f5e6cb',
             }
         },
     },
