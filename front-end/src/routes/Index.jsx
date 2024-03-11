@@ -20,7 +20,7 @@ function Index() {
             }
             const url = import.meta.env.VITE_REACT_APP_BACKEND_BASE_URL
             const req = {
-                username: username
+                username: username.trim().replace(/\s+/g, ' ')
             }
             const response = await axios.get(url, {
                 params: req
