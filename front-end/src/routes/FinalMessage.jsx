@@ -28,7 +28,7 @@ function FinalMessage() {
             <div className='w-[55%] flex flex-col items-end mt-20'>
                 <div className='w-[90%] h-auto min-h-[60%] border-4 border-primary rounded-[30px] bg-secondary pt-5 pb-5 pl-10 pr-10 mb-10'>
                     <p className='text-primary text-[55px] font-bold'>
-                    Và nhất là 8/3, Quốc tế Phụ nữ, bạn Khương xin đại diện tất cả trai đẹp trên thế giới này chúc các bạn nữ luôn được yêu thương, chân trọng và tỏa sáng rạng ngời luôn nhe
+                    Và nhất là 8/3, Quốc tế Phụ nữ, bạn Khương xin đại diện tất cả trai đẹp trên thế giới này chúc các bạn nữ luôn được yêu thương, trân trọng và tỏa sáng rạng ngời luôn nhe
                     </p>
                 </div>
                 <div className='w-[90%] flex justify-between'>
