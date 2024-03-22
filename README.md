@@ -13,5 +13,5 @@ Please note that if the web application is not responding then wait for a minute
 
 ## Credits
 **UI Designer**: Lê Thảo Nhiên 
-* [Linkedin:]()
-* [Instagram:](https://www.instagram.com/nhiinbeocutenhattrendoi/)
+* [Linkedin]()
+* [Instagram](https://www.instagram.com/nhiinbeocutenhattrendoi/)
