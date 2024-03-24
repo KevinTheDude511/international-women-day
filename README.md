@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [About](#about)
-- [Installation](#installation)
+- [Live Demo](#live-demo)
 - [Credits](#credits)
 
 ## About
@@ -16,7 +16,7 @@ The International Women's Day project is a collaborative effort between me and m
     - Front-end: Vercel
     - Back-end: Render
 
-## Installation
+## Live Demo
 This web application is deployed using Vercel, here is the [link](https://international-women-day.vercel.app/) to the web.
 
 To preview the format for the wishes:
