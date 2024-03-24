@@ -12,6 +12,9 @@ The International Women's Day project is a collaborative effort between me and m
 - **Front-end**: React, Tailwind CSS
 - **Back-end**: NodeJS, ExpressJS
 - **Database**: MongoDB
+- **Hosting**:
+    - Front-end: Vercel
+    - Back-end: Render
 
 ## Installation
 This web application is deployed using Vercel, here is the [link](https://international-women-day.vercel.app/) to the web.
